@@ -20,4 +20,3 @@ def get_marks():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
