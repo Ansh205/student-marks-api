@@ -17,3 +17,7 @@ def get_marks():
     results = [marks_data.get(name, None) for name in names]
     # Return JSON response
     return jsonify({"marks": results})
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
